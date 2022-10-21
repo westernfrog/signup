@@ -5,19 +5,15 @@ export default function Signup() {
   function handleclick(e) {
     e.preventDefault();
     if ($(".input1").val()) {
-      $(".input1").removeClass("is-invalid");
-      $(".input1").addClass("is-valid");
+      $(".input1").removeClass("is-invalid").addClass("is-valid");
     } else {
-      $(".input1").removeClass("is-valid");
-      $(".input1").addClass("is-invalid");
+      $(".input1").removeClass("is-valid").addClass("is-invalid");
     }
-
-    if ($(".input2").val()) {
-      $(".input2").removeClass("is-invalid");
-      $(".input2").addClass("is-valid");
+    var paswd = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
+    if ($(".input2").val().length > 8 && $(".input2").val().match(paswd)) {
+      $(".input2").removeClass("is-invalid").addClass("is-valid");
     } else {
-      $(".input2").removeClass("is-valid");
-      $(".input2").addClass("is-invalid");
+      $(".input2").removeClass("is-valid").addClass("is-invalid");
     }
   }
 
@@ -39,6 +35,8 @@ export default function Signup() {
             id="validationCustomUsername"
             placeholder="@username"
             aria-describedby="inputGroupPrepend"
+            autoComplete="off"
+            autoFocus
             required
           />
           <label for="floatingInput">Username</label>
@@ -58,8 +56,8 @@ export default function Signup() {
           <label for="floatingPassword">Password</label>
           <div class="valid-feedback text-start my-1">Looks good!</div>
           <div class="invalid-feedback text-start my-1">
-            Your password should be more than 8 characters and must include
-            special characters and symbols.
+            Your password should be between 7 to 15 characters and must include
+            at least one numeric digit and a special character.
           </div>
         </div>
 

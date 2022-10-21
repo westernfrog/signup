@@ -4,7 +4,7 @@ export default function Footer() {
   let cdate = new Date();
   cdate = cdate.getFullYear();
   return (
-    <div className="">
+    <div>
       <div className="container text-slab">
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container-fluid">
           <div className="col-md-4 d-flex align-items-center">
