@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/lueurtech/static/js/main.8d4185a1.js",
+    "main.js": "/lueurtech/static/js/main.d4181d4e.js",
     "index.html": "/lueurtech/index.html",
-    "main.8d4185a1.js.map": "/lueurtech/static/js/main.8d4185a1.js.map"
+    "main.d4181d4e.js.map": "/lueurtech/static/js/main.d4181d4e.js.map"
   },
   "entrypoints": [
-    "static/js/main.8d4185a1.js"
+    "static/js/main.d4181d4e.js"
   ]
 }
