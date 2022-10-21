@@ -54,14 +54,6 @@ export default function Header() {
                   <li>
                     <a
                       className="dropdown-item"
-                      href="https://www.instagram.com/lueurtech/"
-                    >
-                      Instagram
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="dropdown-item"
                       href="https://www.facebook.com/LueurTech-Software-Solutions-Pvt-Ltd-108768421586960/?ref=pages_you_manage"
                     >
                       Facebook
@@ -73,6 +65,14 @@ export default function Header() {
                       href="https://www.lueurtech.com/"
                     >
                       Twitter
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href="https://www.instagram.com/lueurtech/"
+                    >
+                      Instagram
                     </a>
                   </li>
                 </ul>
