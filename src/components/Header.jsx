@@ -16,6 +16,7 @@ export default function Header() {
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={{ boxShadow: "none" }}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
