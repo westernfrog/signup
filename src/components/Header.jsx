@@ -5,7 +5,7 @@ export default function Header() {
     <div className="bg-dark">
       <nav className="navbar navbar-expand-lg navbar-dark container">
         <div className="container-fluid text-mono">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/lueurtech">
             LueurTech
           </a>
           <button
@@ -22,24 +22,28 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="/lueurtech"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/lueurtech">
                   Features
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/lueurtech">
                   Pricing
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="/"
+                  href="/lueurtech"
                   id="navbarDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"

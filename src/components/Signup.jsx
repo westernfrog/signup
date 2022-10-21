@@ -19,7 +19,7 @@ export default function Signup() {
 
   return (
     <div className="form-signin text-center my-5 text-dm">
-      <form className="needs-validation" novalidate>
+      <form className="needs-validation" noValidate>
         <img
           className="mb-4"
           src="https://cdn-icons-png.flaticon.com/512/8738/8738622.png"
@@ -39,9 +39,9 @@ export default function Signup() {
             autoFocus
             required
           />
-          <label for="floatingInput">Username</label>
-          <div class="valid-feedback text-start my-1">Looks good!</div>
-          <div class="invalid-feedback text-start my-1">
+          <label htmlFor="floatingInput">Username</label>
+          <div className="valid-feedback text-start my-1">Looks good!</div>
+          <div className="invalid-feedback text-start my-1">
             Please choose a username.
           </div>
         </div>
@@ -53,9 +53,9 @@ export default function Signup() {
             placeholder="Password"
             required
           />
-          <label for="floatingPassword">Password</label>
-          <div class="valid-feedback text-start my-1">Looks good!</div>
-          <div class="invalid-feedback text-start my-1">
+          <label htmlFor="floatingPassword">Password</label>
+          <div className="valid-feedback text-start my-1">Looks good!</div>
+          <div className="invalid-feedback text-start my-1">
             Your password should be between 7 to 15 characters and must include
             at least one numeric digit and a special character.
           </div>
@@ -71,7 +71,7 @@ export default function Signup() {
           id="btn"
           onClick={handleclick}
         >
-          Sign in
+          Sign up
         </button>
       </form>
     </div>
