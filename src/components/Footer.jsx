@@ -5,14 +5,14 @@ export default function Footer() {
   cdate = cdate.getFullYear();
   return (
     <div>
-      <div className="container text-slab">
+      <div className="container">
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top container-fluid">
-          <div className="col-md-4 d-flex align-items-center">
-            <span>&copy; {cdate} LueurTech, Inc</span>
+          <div className="col-md-4 d-flex align-items-center text-dm">
+            <span>&copy; {cdate} techTech, Inc</span>
           </div>
           <div className="nav col-md-4 justify-content-end list-unstyled d-flex">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/5290/5290058.png"
+              src="https://cdn-icons-png.flaticon.com/512/4116/4116367.png"
               alt="Logo of Utilisauras"
               width="30"
               height="30"

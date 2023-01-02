@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark container">
         <div className="container-fluid text-mono">
           <a className="navbar-brand" href="/lueurtech">
-            LueurTech
+            techTech
           </a>
           <button
             className="navbar-toggler border-0 pe-0"
