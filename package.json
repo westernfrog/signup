@@ -1,7 +1,7 @@
 {
-  "name": "lueurtech",
+  "name": "signup",
   "version": "0.1.0",
-  "homepage": "https://westernfrog.github.io/sigup",
+  "homepage": "https://westernfrog.github.io/signup",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
